@@ -9,10 +9,10 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "app_user")
+@Table(name = "user")
 @Getter
 @Setter
-public class AppUser {
+public class User {
     @Id
     @Column(name = "id", nullable = false)
     private Long id;

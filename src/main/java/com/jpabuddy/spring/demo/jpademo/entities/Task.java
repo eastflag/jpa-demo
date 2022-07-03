@@ -27,5 +27,5 @@ public class Task {
 
     @ManyToOne
     @JoinColumn(name = "assignee_id")
-    private AppUser assignee;
+    private User assignee;
 }

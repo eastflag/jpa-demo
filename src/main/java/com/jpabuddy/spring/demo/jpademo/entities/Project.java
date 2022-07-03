@@ -30,7 +30,7 @@ public class Project {
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "manager_id", nullable = false)
-    private AppUser manager;
+    private User manager;
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "project_id")
