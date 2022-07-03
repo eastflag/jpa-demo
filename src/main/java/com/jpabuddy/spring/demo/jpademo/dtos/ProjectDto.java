@@ -9,6 +9,6 @@ import java.util.List;
 public class ProjectDto implements Serializable {
     private final Long id;
     private final String name;
-    private final UserDto manager;
+    private final AppUserDto manager;
     private final List<TaskDto> tasks;
 }
